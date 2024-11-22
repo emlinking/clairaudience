@@ -5,7 +5,7 @@
     "model_force_lang": "english",
 
     "dataset_name": "miami",
-    "dataset_path": "/shared/0/projects/code-switching/miami/miami_hf",
+    "dataset_path": "/shared/0/projects/code-switching/miami/miami_hf_test",
     "train_with_prompts": true,
     "valid_with_prompts": true,
     "test_with_prompts": true,
