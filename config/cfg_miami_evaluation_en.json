@@ -16,8 +16,8 @@
 
     "dataset_split": "test",
     "num_beams": 3,
-    "output_dir": "outputs",
-    "cache_dir": "outputs/cache_dir",
+    "output_dir": "/shared/0/projects/code-switching/clairaudience_outputs_en",
+    "cache_dir": "/shared/0/projects/code-switching/clairaudience_outputs_en/cache_dir",
     "dataset_num_proc": 8,
     "num_subsamples": -1,
     "num_train_subsamples": -1,
