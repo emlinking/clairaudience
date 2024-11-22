@@ -4,7 +4,7 @@
     "model_name": "openai/whisper-large-v2",
     "model_force_lang": "english",
 
-    "dataset_name": "gigaspeech",
+    "dataset_name": "miami",
     "dataset_path": "/shared/0/projects/code-switching/miami/miami_hf",
     "train_with_prompts": true,
     "valid_with_prompts": true,
