@@ -5,13 +5,13 @@
     "model_force_lang": "english",
 
     "dataset_name": "gigaspeech",
-    "dataset_path": "data/hf_dd_data/gigaspeech/m",
+    "dataset_path": "/shared/0/projects/code-switching/miami/miami_hf",
     "train_with_prompts": true,
     "valid_with_prompts": true,
     "test_with_prompts": true,
-    "train_prompt_info": ["[ domain: tag1, tag2, tag3]"],
-    "valid_prompt_info": ["[ domain: tag1, tag2, tag3]"],
-    "test_prompt_info": ["[ domain: tag1, tag2, tag3]"],
+    "train_prompt_info": ["This is a code-switching conversation. Transcribe it."],
+    "valid_prompt_info": ["This is a code-switching conversation. Transcribe it."],
+    "test_prompt_info": ["This is a code-switching conversation. Transcribe it."],
 
 
     "dataset_split": "test",
