@@ -156,7 +156,7 @@ def setup_dataset(dataset_name,
                                       kwargs["num_valid_subsamples"],
                                       kwargs["num_test_subsamples"])
     if dataset_pre_func:
-        dataset = dataset.map(dataset_pre_func, num_proc=8, cache_file_names=cache_file_names)
+        dataset = dataset.map(dataset_pre_func, num_proc=1, cache_file_names=cache_file_names)
 
     return dataset
 
